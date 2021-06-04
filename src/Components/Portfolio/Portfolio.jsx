@@ -21,9 +21,9 @@ const Portfolio = () => {
                         See some of our Creative work.
                     </h3>
                     <div className="portfolio__content">
-                        {items.map((item, index) => <PortfolioCard item={item} index={index} />)}
+                        {items.map((item, index) => <PortfolioCard item={item} index={index} key={index}/>)}
                     </div>
-                    <Link className="portfolio_btn btn-tran">
+                    <Link to='/' className="portfolio_btn btn-tran">
                         See more of These.
                     </Link>
                 </div>

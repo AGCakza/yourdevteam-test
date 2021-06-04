@@ -27,7 +27,7 @@ const Title = () => {
             <div className="container">
                 <div className="title-wrapper">
                     <Slider {...options}>
-                        {items.map((item, index) => <TitleCard item={item} index={index} />)}                        
+                        {items.map((item, index) => <TitleCard item={item} index={index} key={index} />)}                        
                     </Slider>
                 </div>
             </div>

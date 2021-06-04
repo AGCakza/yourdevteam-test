@@ -17,7 +17,7 @@ const TitleCard = ({
                     <div className="title__info__btns_about btn-red">
                         More about us
                     </div>
-                    <Link className="title__info__btns_touch btn-tran">
+                    <Link to='/' className="title__info__btns_touch btn-tran">
                         Get in touch.
                     </Link>
                 </div>
