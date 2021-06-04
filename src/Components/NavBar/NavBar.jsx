@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/img/logo.png'
+import logos from '../../assets/img/logo.png'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 import { Select } from '@material-ui/core'
 import NavLinks from './NavLinks'
@@ -16,7 +16,7 @@ const NavBar = () => {
                     </div>
                     <div className='nav__group'>
                         <div className="nav__logo">
-                            <img src={logo} alt='logo'/>
+                            <img src={logos} alt='logo'/>
                         </div>
                         <ul className="nav__list list">
                             <NavLinks />
