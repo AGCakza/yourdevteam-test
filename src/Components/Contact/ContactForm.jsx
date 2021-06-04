@@ -12,7 +12,7 @@ const ContactForm = ({
             <TextField onChange={handleChange} value={data.subject} name='subject' label="Subject" type='text' classes={{root: 'contact_input_root'}} />
         </div>
         <TextField onChange={handleChange} value={data.message} name='message' label="Message here..." type='text' multiline={true} rows={3} classes={{root: 'contact_input_root'}} />
-        <input type="submit" className='btn-red' value="Send Message" />
+        <input type="submit" className='btn-red contact_form_submit' value="Send Message" />
     </form>
 )
 
