@@ -3,11 +3,11 @@ import React from 'react'
 const NavLinks = () => {
 
     const links = [
-        {link: '/#', label: 'Home.'},
-        {link: '/#title', label: 'About us.'},
-        {link: '/#portfolio', label: 'Portfolio.'},
-        {link: '/', label: 'Blog.'},
-        {link: '/#contact', label: 'Contact us.'},
+        {link: '/yourdevteam-test/#', label: 'Home.'},
+        {link: '/yourdevteam-test/#title', label: 'About us.'},
+        {link: '/yourdevteam-test/#portfolio', label: 'Portfolio.'},
+        {link: '/yourdevteam-test/#', label: 'Blog.'},
+        {link: '/yourdevteam-test/#contact', label: 'Contact us.'},
     ]
     
     return(

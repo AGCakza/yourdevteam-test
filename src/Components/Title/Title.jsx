@@ -13,7 +13,7 @@ const Title = () => {
         slidesToScroll: 1,
         zIndex: 0,
         autoplaySpeed: 7500,
-        autoplay: true
+        autoplay: false
     }
 
     const items = [
@@ -24,12 +24,10 @@ const Title = () => {
 
     return(
         <div className='title' id='title'>
-            <div className="container">
-                <div className="title-wrapper">
-                    <Slider {...options}>
-                        {items.map((item, index) => <TitleCard item={item} index={index} key={index} />)}                        
-                    </Slider>
-                </div>
+            <div className="title-wrapper">
+                <Slider {...options}>
+                    {items.map((item, index) => <TitleCard item={item} index={index} key={index} />)}                        
+                </Slider>
             </div>
         </div>
     )
